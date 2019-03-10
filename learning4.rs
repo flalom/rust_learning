@@ -31,15 +31,16 @@ let volumes: f32 = volumes.trim().parse().expect("Problems in parsing the volume
 
 println!("You want {} wells with {} replicates with {} mL of volume", wells, replicates, volumes);
 
-let results : f32;
+let mut results : f32;
 results = wells * volumes * replicates;
 println!("You need at least {:.2} mL of medium", results);
 println!("You will need {} mL of parasites", wells * replicates * (volumes/2.00));
 println!("Assuming that you want a 1:2 dilution and that your initial stock is 10 mM and that you will use a 1 NTS/1 uL concentration...caclulating...");
 
 let concentration : f32;
-let dil_calculation : f32;
-println!("Input the final concentration that you need in your assay in uM");
+let mut dil_calculation : f32;
+
+println!("Input the final concentration that you need in your assay in µM");
 let mut concentration = String::new();
 io::stdin().read_line(&mut concentration).expect("There was something very wrong in the caluclation of the dilution!!");
 let concentration: f32 = concentration.trim().parse().expect("Problems in parsing the number of wells");
@@ -48,6 +49,8 @@ let concentration: f32 = concentration.trim().parse().expect("Problems in parsin
 dil_calculation = ((volumes * concentration) / 10000.00) * 2.00 * 1000.00;
 println!("You will need to add {} uL of 10 mM stock into your {} mL and then add {} mL of parasites. This solution will have a cocnetration of DMSO = {:.2}%", dil_calculation, volumes - (dil_calculation/1000.00), volumes/2.00, ((dil_calculation/1000.00)/volumes) *50.00);
 
-if dil_calculation <= 0.5 {
-println!("However, the volume to take from the drug it's too low consider a 10-fold prediution, so you can use {} uL", dil_calculation * 10.00)}; 
+//if dil_calculation <= 0.5 {
+//println!("However, the volume to take from the drug it's too low consider a 10-fold prediution, so you can use {} uL", dil_calculation * 10.00)
+//}; 
+
 }
