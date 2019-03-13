@@ -29,7 +29,7 @@ let volumes: f32 = volumes.trim().parse().expect("Problems in parsing the volume
 //Ok(num) => num,
 //Err(_) => print!("Please insert a number!")};
 
-println!("You want {} conditions with {} replicates with {} mL of volume", conditions, replicates, volumes);
+println!("You want {} conditions with {} replicates with {} mL of volume, so in total you will have {} wells", conditions, replicates, volumes, conditions*replicates);
 
 let results : f32;
 results = conditions * volumes * replicates;
