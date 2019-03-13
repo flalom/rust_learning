@@ -45,7 +45,7 @@ let mut concentration = String::new();
 io::stdin().read_line(&mut concentration).expect("There was something very wrong in the caluclation of the dilution!!");
 let concentration: f32 = concentration.trim().parse().expect("Problems in parsing the number of conditions");
 
-println!("Assuming that you want a 1:2 dilution and that your initial stock is 10 mM and that you will use a 
+println!("Assuming that you want a 1:1 serial dilution and that your initial stock is 10 mM and that you will use a 
 1 NTS/1 uL concentration...caclulating...");
 
 //printing out the concentration needed in a 2 times dilution;
