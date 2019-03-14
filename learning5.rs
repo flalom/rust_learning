@@ -63,14 +63,17 @@ if dil_calculation <= 0.5 {
     so you can use {} uL", dil_calculation * 10.00)
         };
    
-println!("Do you wnant to do another calculation?   (1 = yes/0 = no)");
+println!("Do you wnant to do another calculation?   (1 = yes/0 = no/3 = other)");
 let mut cycle = String::new();
 io::stdin().read_line(&mut cycle).expect("There was something very wrong in the caluclation of the dilution!!");
 let cycle :i32 = cycle.trim().parse().expect("Problems in parsing the number of conditions");
 if cycle == 0{
     println!("Ok! see yaaaa");
     answer = false;
-}
+};
+//else if cycle == 3{
+//    fn()
+//};
         
         }
 }  
