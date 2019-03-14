@@ -5,6 +5,10 @@
 use::std::io;
 
 fn main() {
+
+let mut answer = true;
+while answer  {
+
 ///This functione will define the main entrance of the program///
 println!("How many conditions do you need to do?");
 let mut conditions = String::new(); 
@@ -55,7 +59,18 @@ This solution will have a cocnetration of DMSO = {:.2}% at the highest drug conc
 dil_calculation, volumes - (dil_calculation/1000.00), volumes/2.00, ((dil_calculation/1000.00)/volumes) *50.00);
 
 if dil_calculation <= 0.5 {
-println!("However, the volume to take from the drug it's too low consider a 10-fold prediution, 
-so you can use {} uL", dil_calculation * 10.00)
-    }; 
+    println!("However, the volume to take from the drug it's too low consider a 10-fold prediution, 
+    so you can use {} uL", dil_calculation * 10.00)
+        };
+   
+println!("Do you wnant to do another calculation?   (1 = yes/0 = no)");
+let mut cycle = String::new();
+io::stdin().read_line(&mut cycle).expect("There was something very wrong in the caluclation of the dilution!!");
+let cycle :i32 = cycle.trim().parse().expect("Problems in parsing the number of conditions");
+if cycle == 0{
+    println!("Ok! see yaaaa");
+    answer = false;
 }
+        
+        }
+}  
