@@ -67,13 +67,26 @@ println!("Do you wnant to do another calculation?   (1 = yes/0 = no/3 = other)")
 let mut cycle = String::new();
 io::stdin().read_line(&mut cycle).expect("There was something very wrong in the caluclation of the dilution!!");
 let cycle :i32 = cycle.trim().parse().expect("Problems in parsing the number of conditions");
-if cycle == 0{
+if cycle == 0 {
     println!("Ok! see yaaaa");
     answer = false;
 };
-//else if cycle == 3{
-//    fn()
-//};
+if cycle == 3 {
+    println!("Please provide here the molecular weight of the compound in g/mol");
+    let mut mw = String::new();
+    io::stdin().read_line(&mut mw).expect("There was something very wrong in the caluclation of the dilution!!");
+    let mw :f32 = mw.trim().parse().expect("Problems in parsing the number of conditions");
+    println!("The concentration that you want {} uM correspond to {} ug/mL. One uM of your compound is {}", &concentration, mw/1000.00 * &concentration, mw/1000.00);
+    break;
+};
         
         }
 }  
+
+//fn converter() {
+//    println!("Please provide here the molecular weight of the compound in g/mol");
+//    let mut mw = String::new();
+//    io::stdin().read_line(&mut mw).expect("There was something very wrong in the caluclation of the dilution!!");
+//   let mw :f32 = mw.trim().parse().expect("Problems in parsing the number of conditions");
+//    println!("The concentration that you want {} uM correspond to {} ug/mL. One uM of your compound is {}", &concentration, mw/1000.00 * &concentration, mw/1000.00);
+//}
