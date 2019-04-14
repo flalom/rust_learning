@@ -1,0 +1,7 @@
+[package]
+name = "web_scraper"
+version = "0.1.0"
+authors = ["flalom <flavio.lombardo@unibas.ch>"]
+edition = "2018"
+
+[dependencies]
