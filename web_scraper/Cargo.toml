@@ -5,3 +5,6 @@ authors = ["flalom <flavio.lombardo@unibas.ch>"]
 edition = "2018"
 
 [dependencies]
+scraper = "0.10.0"
+reqwest = "0.9.14"
+select = "*"
