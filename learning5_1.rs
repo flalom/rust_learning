@@ -72,17 +72,22 @@ if cycle == 0 {
     answer = false;
 };
 if cycle == 3 {
+    //println!("Please provide here the molecular weight of the compound in g/mol");
+    //let mut mw = String::new();
+    //io::stdin().read_line(&mut mw).expect("There was something very wrong in the caluclation of the dilution!!");
+    //let mw :f32 = mw.trim().parse().expect("Problems in parsing the number of conditions");
+    //println!("The concentration that you want {} uM correspond to {} ug/mL. One uM of your compound is {} ug/ml", &concentration, mw/1000.00 * &concentration, mw/1000.00);
     converter(concentration);
+    break;
 };
 
         }
 }
 
-fn converter(s : f32) {
+fn converter(amount : f32) {
     println!("Please provide here the molecular weight of the compound in g/mol");
     let mut mw = String::new();
     io::stdin().read_line(&mut mw).expect("There was something very wrong in the caluclation of the dilution!!");
     let mw :f32 = mw.trim().parse().expect("Problems in parsing the number of conditions");
-    println!("The concentration that you want {} uM correspond to {} ug/mL. One uM of your compound is {}", &s, mw/1000.00 * &s, mw/1000.00);
+    println!("The concentration that you want {} uM correspond to {} ug/mL. One uM of your compound is {} ug/mL", &amount, mw/1000.00 * &amount, mw/1000.00);
 }
-
