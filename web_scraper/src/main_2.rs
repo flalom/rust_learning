@@ -1,7 +1,8 @@
 
 pub fn link_grabber(url: &str) {
+    
     let resp = reqwest::get(url).unwrap();
-    println!(resp)
+    println!(resp);
     assert!(resp.status().is_success());
 
     Document::from_read(resp)

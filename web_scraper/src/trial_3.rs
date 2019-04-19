@@ -1,5 +1,3 @@
-//mod main_2;
-mod trial_3;
 
 extern crate scraper;
 extern crate reqwest;
@@ -8,25 +6,8 @@ extern crate select;
 use select::document::Document;
 use select::predicate::{Predicate, Attr, Class, Name};
 
-fn main() {
-    trial_3::link_grabber("https://www.jobscout24.ch/en/jobs/biology/?regidl=1-2-3");
-}
+pub fn link_grabber(url: &str){
 
-/*
-fn link_grabber(url: &str) {
-    
-    let resp = reqwest::get(url).unwrap();
-    println!(resp);
-    assert!(resp.status().is_success());
-
-    Document::from_read(resp)
-        .unwrap()
-        .find(Name("a"))
-        .filter_map(|n| n.attr("href"))
-        .for_each(|x| println!("{}{}", &url, x));
-}
-*/
-/*
     let resp = reqwest::get(url).unwrap();
     assert!(resp.status().is_success());
 
@@ -47,5 +28,5 @@ fn link_grabber(url: &str) {
         //.find(Name("a"))
         //.filter_map(|n| n.attr("href"))
         //.for_each(|x| println!("{}", x));
+
 }
-*/
