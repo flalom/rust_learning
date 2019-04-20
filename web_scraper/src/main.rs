@@ -49,3 +49,34 @@ fn link_grabber(url: &str) {
         //.for_each(|x| println!("{}", x));
 }
 */
+
+//REMEMBERING CODE
+use std::io; //standard input output library
+use rnd::Rng; //this is the random generation library
+use std::cmp::Ordering; //together with the match method, this allows to compare the numbers
+
+fn main() {
+    println!("Welcome to the guessing game");
+    let mut secret_number = rnd::range.
+    let mut answer = String::new(); //first you define the string 
+loop { 
+    println!("Ok...I generated a secret number, now you should guess it!");
+    
+    io::stdin().read_line(&mut answer).
+        expect("Something wrong happened! :("); //the you use the io library to get input and finally read line
+    
+    let mut answer :i32 = answer.trim().parse()
+    .expect("Please type a number!"); //what you get it is an instance of a string, you can now parse it and trim it in a signed i32 integer
+
+            match answer.cmp(&secret_number) { //you ccompare
+            Ordering::Less => println!("Too small!"),
+            Ordering::Greater => println!("Too big!"),
+            Ordering::Equal => {
+                println!("You win!");
+                break;
+            }
+        }
+
+
+    }
+}
