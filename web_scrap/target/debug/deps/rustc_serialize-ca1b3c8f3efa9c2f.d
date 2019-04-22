@@ -1,0 +1,10 @@
+C:\Users\flavi\Documents\coding\rust\rust_learning\web_scrap\target\debug\deps\librustc_serialize-ca1b3c8f3efa9c2f.rlib: C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\rustc-serialize-0.3.24\src\lib.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\rustc-serialize-0.3.24\src\serialize.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\rustc-serialize-0.3.24\src\collection_impls.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\rustc-serialize-0.3.24\src\base64.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\rustc-serialize-0.3.24\src\hex.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\rustc-serialize-0.3.24\src\json.rs
+
+C:\Users\flavi\Documents\coding\rust\rust_learning\web_scrap\target\debug\deps\rustc_serialize-ca1b3c8f3efa9c2f.d: C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\rustc-serialize-0.3.24\src\lib.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\rustc-serialize-0.3.24\src\serialize.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\rustc-serialize-0.3.24\src\collection_impls.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\rustc-serialize-0.3.24\src\base64.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\rustc-serialize-0.3.24\src\hex.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\rustc-serialize-0.3.24\src\json.rs
+
+C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\rustc-serialize-0.3.24\src\lib.rs:
+C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\rustc-serialize-0.3.24\src\serialize.rs:
+C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\rustc-serialize-0.3.24\src\collection_impls.rs:
+C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\rustc-serialize-0.3.24\src\base64.rs:
+C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\rustc-serialize-0.3.24\src\hex.rs:
+C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\rustc-serialize-0.3.24\src\json.rs:

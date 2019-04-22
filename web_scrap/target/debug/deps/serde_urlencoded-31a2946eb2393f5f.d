@@ -1,0 +1,11 @@
+C:\Users\flavi\Documents\coding\rust\rust_learning\web_scrap\target\debug\deps\libserde_urlencoded-31a2946eb2393f5f.rlib: C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_urlencoded-0.5.5\src\lib.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_urlencoded-0.5.5\src\de.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_urlencoded-0.5.5\src\ser\mod.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_urlencoded-0.5.5\src\ser\key.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_urlencoded-0.5.5\src\ser\pair.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_urlencoded-0.5.5\src\ser\part.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_urlencoded-0.5.5\src\ser\value.rs
+
+C:\Users\flavi\Documents\coding\rust\rust_learning\web_scrap\target\debug\deps\serde_urlencoded-31a2946eb2393f5f.d: C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_urlencoded-0.5.5\src\lib.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_urlencoded-0.5.5\src\de.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_urlencoded-0.5.5\src\ser\mod.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_urlencoded-0.5.5\src\ser\key.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_urlencoded-0.5.5\src\ser\pair.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_urlencoded-0.5.5\src\ser\part.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_urlencoded-0.5.5\src\ser\value.rs
+
+C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_urlencoded-0.5.5\src\lib.rs:
+C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_urlencoded-0.5.5\src\de.rs:
+C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_urlencoded-0.5.5\src\ser\mod.rs:
+C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_urlencoded-0.5.5\src\ser\key.rs:
+C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_urlencoded-0.5.5\src\ser\pair.rs:
+C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_urlencoded-0.5.5\src\ser\part.rs:
+C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_urlencoded-0.5.5\src\ser\value.rs:

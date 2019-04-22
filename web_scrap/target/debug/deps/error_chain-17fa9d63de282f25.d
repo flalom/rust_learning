@@ -1,0 +1,10 @@
+C:\Users\flavi\Documents\coding\rust\rust_learning\web_scrap\target\debug\deps\liberror_chain-17fa9d63de282f25.rlib: C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\error-chain-0.12.0\src\lib.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\error-chain-0.12.0\src\impl_error_chain_kind.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\error-chain-0.12.0\src\error_chain.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\error-chain-0.12.0\src\quick_main.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\error-chain-0.12.0\src\example_generated.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\error-chain-0.12.0\src\backtrace.rs
+
+C:\Users\flavi\Documents\coding\rust\rust_learning\web_scrap\target\debug\deps\error_chain-17fa9d63de282f25.d: C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\error-chain-0.12.0\src\lib.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\error-chain-0.12.0\src\impl_error_chain_kind.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\error-chain-0.12.0\src\error_chain.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\error-chain-0.12.0\src\quick_main.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\error-chain-0.12.0\src\example_generated.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\error-chain-0.12.0\src\backtrace.rs
+
+C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\error-chain-0.12.0\src\lib.rs:
+C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\error-chain-0.12.0\src\impl_error_chain_kind.rs:
+C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\error-chain-0.12.0\src\error_chain.rs:
+C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\error-chain-0.12.0\src\quick_main.rs:
+C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\error-chain-0.12.0\src\example_generated.rs:
+C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\error-chain-0.12.0\src\backtrace.rs:

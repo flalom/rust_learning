@@ -1,0 +1,11 @@
+C:\Users\flavi\Documents\coding\rust\rust_learning\web_scrap\target\debug\deps\libcookie_store-8e8395b5b0601078.rlib: C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie_store-0.5.1\src\lib.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie_store-0.5.1\src\cookie.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie_store-0.5.1\src\cookie_domain.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie_store-0.5.1\src\cookie_expiration.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie_store-0.5.1\src\cookie_path.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie_store-0.5.1\src\cookie_store.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie_store-0.5.1\src\utils.rs
+
+C:\Users\flavi\Documents\coding\rust\rust_learning\web_scrap\target\debug\deps\cookie_store-8e8395b5b0601078.d: C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie_store-0.5.1\src\lib.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie_store-0.5.1\src\cookie.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie_store-0.5.1\src\cookie_domain.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie_store-0.5.1\src\cookie_expiration.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie_store-0.5.1\src\cookie_path.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie_store-0.5.1\src\cookie_store.rs C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie_store-0.5.1\src\utils.rs
+
+C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie_store-0.5.1\src\lib.rs:
+C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie_store-0.5.1\src\cookie.rs:
+C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie_store-0.5.1\src\cookie_domain.rs:
+C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie_store-0.5.1\src\cookie_expiration.rs:
+C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie_store-0.5.1\src\cookie_path.rs:
+C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie_store-0.5.1\src\cookie_store.rs:
+C:\Users\flavi\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie_store-0.5.1\src\utils.rs:
