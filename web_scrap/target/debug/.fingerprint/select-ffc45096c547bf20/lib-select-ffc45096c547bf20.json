@@ -1,1 +1,0 @@
-{"rustc":6984780976714475854,"features":"[]","target":1700808732050477375,"profile":9935990280773120926,"path":14315827299157992123,"deps":[["bit-set v0.4.0","bit_set",12891529396077166920],["html5ever v0.18.0","html5ever",16932047886091285686]],"local":[{"Precalculated":"0.4.2"}],"rustflags":[],"edition":"Edition2015"}
