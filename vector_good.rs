@@ -8,13 +8,16 @@ fn main() {
         b.insert(1, i);
         println!("hello, {:?}", b);
         //pagnone(20);
+    }
                 let bivvo: Vec<i32> = (2..200).collect(); //.collect() collects the range into a container, 
                 //but you need to specify what kind of container you want, otherwise it doesn't know what type to return
             for  pippo in bivvo{
             println!("Hello pippo numero {:?}", pippo);
             }
-    }
+    
 }
+
+//let coords: Vec<(f32, f32)> = [(12.0, 12.0), (14.0, 14.0)].into_iter().cloned().collect()
 
 fn pagnone(a:u32) {
     let b = vec![2..a];
